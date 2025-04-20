@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gray-50`}>
         <div className="flex flex-col min-h-screen">
-          <header className="sticky top-0 z-50 bg-white shadow-sm p-6 flex justify-between items-center">
+          <header className="sticky top-0 z-50 bg-white shadow-sm p-6 flex items-center gap-20">
             <h1>My Web3 Journey</h1>
             <Nav />
           </header>

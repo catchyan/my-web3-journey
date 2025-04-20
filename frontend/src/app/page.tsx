@@ -3,7 +3,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center h-full">
       <h1 className="text-4xl font-bold mb-8">My Web3 Journey</h1>
       <a 
-        href="https://github.com/catchyan" 
+        href="https://github.com/catchyan/my-web3-journey" 
         target="_blank" 
         rel="noopener noreferrer"
         className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors"
