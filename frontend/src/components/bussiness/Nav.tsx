@@ -1,5 +1,3 @@
-"use client"
-
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
@@ -12,14 +10,11 @@ import {
   NavigationMenuLink
 } from "../ui/navigation-menu"
 
-import { useRouter } from "next/navigation";
-
 interface NavProps {
   className?: string;
 }
 
 export default function Nav({ className }: NavProps) {
-  const router = useRouter()
   return (
     <NavigationMenu className={className}>
       <NavigationMenuList>
